@@ -6,7 +6,15 @@
 </head>
 <body>
 <script language="JavaScript" type="text/JavaScript">
-var x, y;
+var x, y, pass;
+pass=1234;
+pass1=prompt("Введите пароль",'');
+if(pass==pass1){
+alert("Пароль введен правильно");
+}
+else{
+alert("Пароль введен неправильно!");
+}
 x=parseInt(prompt("Введите значение х",'')); // метод parseInt() переводит
 
 y=parseInt(prompt("Введите значение у",'')); // число
